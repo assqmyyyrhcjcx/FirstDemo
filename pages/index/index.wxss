@@ -60,3 +60,35 @@
   width: 300rpx;
   height: 260rpx;
 }
+
+.hotArea{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.hotProduct{
+  width: 300rpx;
+  height: 400rpx;
+  margin: 10rpx;
+  background-color: #FFF;
+}
+
+.hotProductImg image{
+  width: 300rpx;
+  height: 300rpx;
+}
+
+.hotProductInfo{
+  width: 300rpx;
+  display: flex;
+  flex-direction: column;  
+  justify-content: center;
+  align-items: center;
+}
+
+.hotProductInfo > text{
+  font-size: 8pt;
+  margin-top: 10rpx;
+}

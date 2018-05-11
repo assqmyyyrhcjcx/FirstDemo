@@ -28,6 +28,12 @@ Page({
       "../../static/images/5af10fe5N4a50337c.jpg",
       "../../static/images/5aefedf3Nd95c2dee.jpg",
       "../../static/images/5af10fe5N4a50337c.jpg"
+    ],
+    product:[
+      { productName: "MacBook Pro 15.4英寸笔记本", productPrice: "￥13288.00", productImg: "../../static/product/5a694948N5cc36e24.jpg"},
+      { productName: "MacBook Pro 15.4英寸笔记本", productPrice: "￥13288.00", productImg: "../../static/product/5a694948N5cc36e24.jpg" },
+      { productName: "MacBook Pro 15.4英寸笔记本", productPrice: "￥13288.00", productImg: "../../static/product/5a694948N5cc36e24.jpg" },
+      { productName: "MacBook Pro 15.4英寸笔记本", productPrice: "￥13288.00", productImg: "../../static/product/5a694948N5cc36e24.jpg" }
     ]
   },
 

@@ -20,4 +20,15 @@
       <image src='{{item}}'></image>
     </view>
   </view>
+  <view class='hotArea'>
+    <view class='hotProduct' wx:for="{{product}}">
+      <view class='hotProductImg'>
+        <image src='{{item.productImg}}'></image>      
+      </view>
+      <view class='hotProductInfo'>
+        <text class='hotProductTitle'>{{item.productName}}</text>
+        <text class='hotProductPrice'>{{item.productPrice}}</text>
+      </view>
+    </view>
+  </view>
 </view>
