@@ -1,0 +1,23 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='swiper'>
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image"/>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class='category'>
+    <view wx:for="{{icons}}" class='categoryItem'>
+      <image src='{{item.icon}}'></image>
+      <text>{{item.name}}</text>
+    </view>
+  </view>
+  <view class='activity'>
+    <view wx:for="{{activityItem}}" class='activityItem'>
+      <image src='{{item}}'></image>
+    </view>
+  </view>
+</view>
